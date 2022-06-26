@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 80px;
+    background-color: black;
+}
+.container-grid{
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-grid img{
+    width: 250px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    text-transform:capitalize
+    font-family: 'Cantora One', sans-serif;
+    font-size: 20px
+}
+.menu{
+    width: 700px;
+    display: flex;
+    justify-content:space-between
+}
+.container{
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'Cantora One', sans-serif;
+    font-size: 25px;
+}
+.texto-banner a{
+    color: blueviolet;
+    background-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+    padding: 6px;
+    justify-content: space-between;
+}
+.posicao-texto{
+    height: 1100px;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'Cantora One', sans-serif;
+    font-size: 35px;
+    position: absolute;
+    height: 100px;
+    width: 1900px;
+}
+.inscricao{
+    background-image: url(../img/Inscrição.png);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.sobre-torneio{
+    background-image: url(../Img/sobre\ torneios.png);
+    height: 372px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sobre-torneio h1{
+    color: white;
+    font-family: 'Cantora One', sans-serif;
+    font-size: 50px;
+    line-height: 1.5;
+   
+
+    
+}
+.sobre-torneio p{
+    color: white;
+    font-family: 'Cantora One', sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    text-indent: 60px;
+    font-weight: lighter;
+    width: 950px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    word-spacing: 5px;
+    
+}
+.sobre-torneio a{
+    color: #9F7C00;
+}
+.torneio-integra{
+    margin: 50px;
+    margin-bottom: -215px;
+}
