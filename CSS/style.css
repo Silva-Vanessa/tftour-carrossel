@@ -33,13 +33,7 @@ header{
     display: flex;
     justify-content:space-between
 }
-.container{
-    justify-content: center;
-    text-transform: uppercase;
-    font-family: 'Cantora One', sans-serif;
-    font-size: 25px;
-}
-.texto-banner a{
+.texto-inscricao a{
     color: blueviolet;
     background-color: white;
     border-width: 5px;
@@ -79,9 +73,6 @@ header{
     font-family: 'Cantora One', sans-serif;
     font-size: 50px;
     line-height: 1.5;
-   
-
-    
 }
 .sobre-torneio p{
     color: white;
